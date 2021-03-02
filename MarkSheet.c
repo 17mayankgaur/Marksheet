@@ -15,6 +15,7 @@ int main()
 
     for(int i=0;i<n;i++)
         {
+            printf("____________________________________________\n");
             printf("Enter Name of Student =");
             scanf("%s",stud[i].name);
 
@@ -37,17 +38,17 @@ int main()
     for(int i=0;i<n;i++)
         {
 
-            printf("*******************************************************\n");
-            printf("Result of  : %s \n",stud[i].name);
-            printf("Hindi : %d \n",stud[i].hindi);
-            printf("English : %d \n",stud[i].english);
-            printf("Math : %d \n",stud[i].math);
-            printf("Science : %d \n",stud[i].science);
-            printf("Total : %d \n",stud[i].total);
-            printf("percentage : %d \n",stud[i].per);
+            printf("\n*******************************************************\n");
+            printf("Result of     : %s\n",stud[i].name);
+            printf("Hindi         : %d \n",stud[i].hindi);
+            printf("English       : %d\n",stud[i].english);
+            printf("Math          : %d\n",stud[i].math);
+            printf("Science       : %d\n",stud[i].science);
+            printf("Total         : %d\n",stud[i].total);
+            printf("percentage    : %f\n",stud[i].per);
         }
 
-
+        getch();
 
     return 0;
 }
